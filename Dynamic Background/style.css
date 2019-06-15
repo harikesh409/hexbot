@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    width: 100%;
+}
+
+.btn {
+    width: 25%;
+    padding: 25px;
+    margin: auto;
+    font-size: 20px;
+}
+
+.color {
+    background-color: #fff;
+    height: 150px;
+    width: 50%;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+}
+
+.color div {
+    padding-left: 15px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.color b {
+    padding-left: 5px;
+}
